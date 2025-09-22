@@ -1,12 +1,20 @@
 @import "tailwindcss";
-
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 :root {
     background-color: #087bca;
 }
 html {
   font-size: 62.5%;
   font-family: "Segoe UI", Roboto, sans-serif;
-
 }
 
 
