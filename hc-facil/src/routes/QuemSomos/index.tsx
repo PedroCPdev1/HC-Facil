@@ -1,7 +1,7 @@
 export default function QuemSomos() {
   return (
-    <main className="h-screen flex flex-col items-center">
-      <div className="p-8 pt-50 text-center ">
+    <main className="h-screen flex flex-col items-center pb-50">
+      <div className="p-8 pt-35 text-center ">
         <h1 className="text-white text-5xl font-bold mb-2">QUEM SOMOS</h1>
       </div>
 

@@ -1,7 +1,7 @@
 export default function ConsultaExames() {
   return (
     <main className="h-screen flex flex-col items-center">
-      <div className="p-8 pt-50 text-center ">
+      <div className="p-8 pt-20 text-center ">
         <h1 className="text-white text-5xl font-bold mb-2">
           CONSULTAS E EXAMES
         </h1>
