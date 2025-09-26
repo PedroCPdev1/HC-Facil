@@ -26,7 +26,7 @@ export default function Home() {
           </Link>
           <Link
             to="consultaExames"
-            className="bg-white text-[#087bca] font-bold px-8 py-4 rounded-xl shadow-2xl hover:bg-blue-200 transform hover:scale-110 duration-170 transition h-25 w-80 text-3xl">
+            className="bg-white text-[#087bca] font-bold px-8 py-4 rounded-xl shadow-2xl hover:bg-blue-200 transform hover:scale-110 duration-170 transition h-25 w-80 text-3xl ">
             Consultas e Exames
           </Link>
           <Link
