@@ -8,10 +8,10 @@ export default function ConsultaExames() {
       </div>
       <div className="flex flex-col gap-5">
         <div className="grid grid-cols-2 gap-30 place-items-center">
-          <div className="flex flex-col gap-5 bg-white p-10 w-auto h-20 rounded-full shadow-2xl justify-center text-center text-[#087bca] font-bold text-2xl">
+          <div className="titulo-consulta-exames">
             <h2>Minhas Consultas</h2>
           </div>
-          <div className="flex flex-col gap-5 bg-white p-10 w-auto h-20 rounded-full shadow-2xl justify-center text-center text-[#087bca] font-bold text-2xl">
+          <div className="titulo-consulta-exames">
             <h2>Meus Exames</h2>
           </div>
           <div className="bg-white w-150 h-70 shadow-4xl rounded-4xl text-center pt-5 pb-5">

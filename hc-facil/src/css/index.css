@@ -17,5 +17,22 @@ html {
   font-family: "Segoe UI", Roboto, sans-serif;
 }
 
+.botao-home {
+  @apply bg-white text-[#087bca] font-bold px-8 py-4 rounded-xl shadow-2xl hover:bg-blue-200 transform hover:scale-110 duration-170 transition h-25 w-80 text-3xl pt-8;
+}
 
+.titulo-consulta-exames {
+  @apply flex flex-col gap-5 bg-white p-10 w-auto h-20 rounded-full shadow-2xl justify-center text-center text-[#087bca] font-bold text-2xl;
+}
 
+.contato-info {
+  @apply bg-blue-50 w-245 h-20 rounded-2xl border-l-[#087bca] border-l-5 text-2xl pt-5 pl-8;
+}
+
+.faq-info {
+  @apply bg-blue-200 h-15 pt-3 text-center text-2xl font-semibold rounded-2xl text-blue-800;
+}
+
+.div-guia {
+  @apply gap-5 text-center bg-white w-110 h-145 rounded-3xl drop-shadow-lg shadow-2xl transform hover:scale-105 duration-150 transition;
+}

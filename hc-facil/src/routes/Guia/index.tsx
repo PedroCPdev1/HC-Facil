@@ -4,7 +4,7 @@ export default function Guia() {
       <div className="flex flex-col gap-10 pt-10 text-center">
         <h1 className="text-white text-5xl font-bold pb-5">GUIA</h1>
         <div className="grid grid-cols-2 gap-10">
-          <div className="gap-5 text-center bg-white w-110 h-145 rounded-3xl drop-shadow-lg shadow-2xl transform hover:scale-105 duration-150 transition ">
+          <div className="div-guia">
             <h1 className="text-black text-2xl font-bold mb-2 pt-3">
               Guia para o site Hospital das Clínicas
             </h1>
@@ -18,7 +18,7 @@ export default function Guia() {
               hospital das clínicas.
             </p>
           </div>
-          <div className="gap-5 text-center bg-white w-110 h-145 rounded-3xl drop-shadow-lg shadow-2xl transform hover:scale-105 duration-150 transition ">
+          <div className="div-guia">
             <h1 className="text-black text-2xl font-bold mb-2 pt-3">
               Guia para o site HC Fácil
             </h1>
