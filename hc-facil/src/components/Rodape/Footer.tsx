@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="bg-white text-black text-2xl block h-15 text-center p-4 font-light mt-full">
-      <p>&copy; 2025 Hc Fácil - Todos os direitos reservados</p>
+    <footer className="bg-white text-black text-2xl text-center p-4 font-light fixed bottom-0 left-0 w-full shadow-inner">
+      <p>&copy; 2025 HC Fácil - Todos os direitos reservados</p>
     </footer>
   );
 }
