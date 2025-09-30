@@ -32,18 +32,24 @@ export default function Faq() {
             que têm dificuldade em usar sites, como idosos, pessoas com
             limitações cognitivas ou pouca experiência digital.
           </p>
-          <h3 className="faq-info">4. O HC Fácil armazena meus dados pessoais?</h3>
+          <h3 className="faq-info">
+            4. O HC Fácil armazena meus dados pessoais?
+          </h3>
           <p>
             Não. O site é apenas uma ferramenta educativa. Nenhuma informação
             sensível ou pessoal é salva.
           </p>
-          <h3 className="faq-info">5. Como funciona o calendário interativo?</h3>
+          <h3 className="faq-info">
+            5. Como funciona o calendário interativo?
+          </h3>
           <p>
             É uma simulação. Você pode marcar uma data como se fosse agendar uma
             consulta, para treinar como faria no site oficial. Assim, você se
             prepara com mais segurança.
           </p>
-          <h3 className="faq-info">6. Vou receber notificações reais pelo Telegram?</h3>
+          <h3 className="faq-info">
+            6. Vou receber notificações reais pelo Telegram?
+          </h3>
           <p>
             Sim, se você permitir. As notificações são simuladas e servem como
             lembretes para você se organizar melhor com seus atendimentos.
@@ -53,12 +59,16 @@ export default function Faq() {
             O chatbot responde perguntas simples sobre como usar o HC Fácil e
             navegar pelo site do HC. Ele é rápido, acessível e fácil de usar.
           </p>
-          <h3 className="faq-info">8. Os guias são escritos em linguagem fácil??</h3>
+          <h3 className="faq-info">
+            8. Os guias são escritos em linguagem fácil??
+          </h3>
           <p>
             Sim! Todos os tutoriais são feitos com linguagem clara, passo a
             passo, com imagens e vídeos para ajudar o entendimento.
           </p>
-          <h3 className="faq-info">9. Preciso me cadastrar para usar o HC Fácil?</h3>
+          <h3 className="faq-info">
+            9. Preciso me cadastrar para usar o HC Fácil?
+          </h3>
           <p>
             Não. Todo o conteúdo é aberto e gratuito. Basta acessar o site e
             começar a usar.

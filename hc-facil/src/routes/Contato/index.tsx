@@ -21,7 +21,8 @@ export default function Contato() {
               href="https://hc.unicamp.br/pacientes/telefones-uteis/"
               target="_blank"
               rel="noopener"
-              className="text-blue-600 font-bold">
+              className="text-blue-600 font-bold"
+            >
               Telefones e e-mails úteis - Hospital de Clínicas - HC
             </a>
           </p>
