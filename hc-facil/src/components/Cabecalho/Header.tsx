@@ -22,7 +22,7 @@ export default function Header() {
         <img 
           src="../public/logo.png" 
           alt="Logo HC Fácil" 
-          className="h-12 w-auto sm:h-16 lg:h-20"
+          className="h-12 w-auto sm:h-16 lg:h-20 mt-5"
         />
       </button>
 
