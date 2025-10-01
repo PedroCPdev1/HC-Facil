@@ -2,16 +2,16 @@ import { useParams, useNavigate } from "react-router-dom";
 
 const videos = {
   "1": {
-    title: "Placeholder (hahaha)",
-    url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    title: "Placeholder",
+    url: "https://www.youtube.com/watch?v=u31qwQUeGuM",
   },
   "2": {
-    title: "Dr Auzeo",
-    url: "https://www.youtube.com/watch?v=0SEXzcUN4vE",
+    title: "Placeholder",
+    url: "https://www.youtube.com/watch?v=u31qwQUeGuM",
   },
   "3": {
-    title: "Dr Auzeio",
-    url: "https://www.youtube.com/watch?v=0SEXzcUN4vE",
+    title: "Placeholder",
+    url: "https://www.youtube.com/watch?v=u31qwQUeGuM",
   },
 };
 
