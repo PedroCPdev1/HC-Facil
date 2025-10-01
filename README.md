@@ -17,3 +17,8 @@ As imagens e ícones utilizados no projeto estão localizados na pasta **`/publi
 - Fotos dos integrantes  
 - Logotipos (HC, LinkedIn, GitHub, etc.)  
 - Ícones auxiliares para interface  
+
+## Link do Vídeo:
+
+## Link do Repositório:
+https://github.com/PedroCPdev1/HC-Facil
