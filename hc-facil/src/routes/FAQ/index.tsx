@@ -13,10 +13,7 @@ export default function Faq() {
           </h2>
           <h3 className="faq-info">1. O que é o HC Fácil?</h3>
           <p>
-            O HC Fácil é uma plataforma digital que ajuda pacientes a entenderem
-            e utilizarem o site oficial do Hospital das Clínicas. É um guia
-            assistivo, com tutoriais, calendários e chatbot, voltado para
-            pessoas com dificuldades tecnológicas.
+            O HC Fácil é uma plataforma digital desenvolvida para auxiliar pacientes a compreenderem e utilizarem o site oficial do Hospital das Clínicas. Funciona como um guia assistivo, oferecendo tutoriais, calendários e um chatbot, especialmente voltado para pessoas com dificuldades no uso de tecnologias.
           </p>
           <h3 className="faq-info">
             2. O HC Fácil substitui o site oficial do Hospital das Clínicas?
