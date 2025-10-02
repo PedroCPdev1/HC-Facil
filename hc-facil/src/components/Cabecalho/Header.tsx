@@ -13,7 +13,7 @@ export default function Header() {
 
   return (
     <header className="header bg-white shadow-2xl">
-    <div className="header-container m-0 p-0 w-full h-20 flex items-center justify-between px-6">
+    <div className="header-container m-0 p-0 w-full h-25 flex items-center justify-between px-6">
       
       <button 
         onClick={voltaMenu} 
@@ -22,7 +22,7 @@ export default function Header() {
         <img 
           src="../public/logo.png" 
           alt="Logo HC Fácil" 
-          className="h-12 w-auto sm:h-16 lg:h-20 mt-5"
+          className="h-12 w-auto sm:h-16 lg:h-20 mt-2"
         />
       </button>
 
