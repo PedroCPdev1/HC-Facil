@@ -19,9 +19,7 @@ export default function Faq() {
             2. O HC Fácil substitui o site oficial do Hospital das Clínicas?
           </h3>
           <p>
-            Não. O HC Fácil é um complemento. Ele não realiza agendamentos reais
-            nem acessa dados do hospital. Seu objetivo é orientar o paciente e
-            tornar a navegação mais fácil e compreensível.
+            Não. O HC Fácil é apenas um recurso complementar. Ele não faz agendamentos reais nem tem acesso aos dados do hospital. Seu propósito é orientar o paciente e tornar a navegação mais simples e clara.
           </p>
           <h3 className="faq-info">3. Quem pode usar o HC Fácil?</h3>
           <p>
