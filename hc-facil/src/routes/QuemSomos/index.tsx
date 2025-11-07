@@ -23,14 +23,14 @@ export default function QuemSomos() {
         RM 565154 - Turma 1TDSPH
       </p>
       <div className="flex gap-5 pt-5">
-        <a href="/">
+        <a href="https://www.linkedin.com/in/alisson-oliveira-50a872356" target="_blank" rel="noopener noreferrer">
           <img
             src="../../../public/linkedin.png"
             alt="LinkedinPng"
             className="w-10 h-10 sm:w-12 sm:h-12"
           />
         </a>
-        <a href="/">
+        <a href="https://github.com/alissonccavalcante" target="_blank" rel="noopener noreferrer">
           <img
             src="../../../public/github.png"
             alt="GithubPng"
@@ -54,14 +54,14 @@ export default function QuemSomos() {
         RM 565154 - Turma 1TDSPH
       </p>
       <div className="flex gap-5 pt-5">
-        <a href="/">
+        <a href="https://www.linkedin.com/in/joão-vitor-biribilli-ravelli-b9b447367/" target="_blank" rel="noopener noreferrer">
           <img
             src="../../../public/linkedin.png"
             alt="LinkedinPng"
             className="w-10 h-10 sm:w-12 sm:h-12"
           />
         </a>
-        <a href="/">
+        <a href="https://github.com/biribillidev" target="_blank" rel="noopener noreferrer">
           <img
             src="../../../public/github.png"
             alt="GithubPng"
@@ -85,14 +85,14 @@ export default function QuemSomos() {
         RM 565154 - Turma 1TDSPH
       </p>
       <div className="flex gap-5 pt-5">
-        <a href="/">
+        <a href="https://www.linkedin.com/in/pedrocpdev" target="_blank" rel="noopener noreferrer">
           <img
             src="../../../public/linkedin.png"
             alt="LinkedinPng"
             className="w-10 h-10 sm:w-12 sm:h-12"
           />
         </a>
-        <a href="/">
+        <a href="https://github.com/PedroCPdev1" target="_blank" rel="noopener noreferrer">
           <img
             src="../../../public/github.png"
             alt="GithubPng"
