@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+const URL_API = import.meta.env.VITE_API_URL;
 
 export default function Calendario() {
   const [data_consulta, setData] = useState("");
@@ -25,7 +26,7 @@ export default function Calendario() {
     const payload = dadosAgendamento; 
 
     try {
-      const response = await fetch("http://localhost:8080/calendario", {
+      const response = await fetch(URL_API, {
         method: 'POST', 
         headers: {
           'Content-Type': 'application/json',
