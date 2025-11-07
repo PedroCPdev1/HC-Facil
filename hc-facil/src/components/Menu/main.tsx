@@ -14,14 +14,14 @@ import QuemSomos from "../../routes/QuemSomos/index.tsx";
 import GuiaSiteHc from "../../routes/Guia/guiaSiteHc.tsx";
 import Videos from "../../routes/Guia/Videos/videos.tsx";
 import GuiaHcFacil from "../../routes/Guia/guiaHcFacil.tsx";
-import CalendarioWrapper from "../../routes/Calendario/teste.tsx";
+import Calendario from "../../routes/Calendario/index.tsx";
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <BrowserRouter>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/calendario" element={<CalendarioWrapper />} />
+        <Route path="/calendario" element={<Calendario />} />
         <Route path="/consultaExames" element={<ConsultaExames />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="/faq" element={<Faq />} />

@@ -4,7 +4,6 @@ import br.com.fiap.dao.CalendarioDAO;
 import br.com.fiap.to.CalendarioTO;
 
 
-import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class CalendarioBO {
@@ -25,7 +24,7 @@ public class CalendarioBO {
         return calendarioDAO.delete(id);
     }
 
-    public CalendarioTO update(CalendarioTO calendario){
+    public CalendarioTO update( CalendarioTO calendario){
         calendarioDAO = new CalendarioDAO();
         return calendarioDAO.update(calendario);
     }
