@@ -3,7 +3,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const API_BASE_URL = 'http://localhost:8080/calendario'; 
+const URL_API = import.meta.env.VITE_API_URL; 
 
 interface FormData extends Omit<Consultas, 'id'> {}
 
@@ -147,7 +147,7 @@ export default function ConsultaExames() {
 
   const buscaConsultas = useCallback(async () => {
     try {
-      const response = await fetch(API_BASE_URL);
+      const response = await fetch(URL_API);
       if (!response.ok) {
         throw new Error('Falha ao buscar as Consultas');
       }
@@ -173,7 +173,7 @@ export default function ConsultaExames() {
     }
 
     try {
-        const response = await fetch(`${API_BASE_URL}/${id}`, {
+        const response = await fetch(`${URL_API}/${id}`, {
             method: 'DELETE',
         });
 
@@ -195,7 +195,7 @@ export default function ConsultaExames() {
   const editarConsulta = async (id: number, updatedData: FormData) => {
     console.log(id, updatedData)
     try {
-        const response = await fetch(`${API_BASE_URL}/${id}`, {
+        const response = await fetch(`${URL_API}/${id}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',
