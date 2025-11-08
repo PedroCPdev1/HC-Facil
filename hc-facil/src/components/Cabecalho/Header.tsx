@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import Logo from "../../../public/logo.png";
 
 export default function Header() {
   const navigate = useNavigate();
@@ -20,7 +21,7 @@ export default function Header() {
         className="flex items-center scale-100 sm:scale-110 lg:scale-125"
       >
         <img 
-          src="hc-facil/public/logo.png" 
+          src={Logo} 
           alt="Logo HC Fácil" 
           className="h-12 w-auto sm:h-16 lg:h-20 mt-2"
         />
