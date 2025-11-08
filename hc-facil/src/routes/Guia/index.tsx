@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logoHC from "../../../public/logohc.png";
 
 export default function Guia() {
   return (
@@ -12,7 +13,7 @@ export default function Guia() {
             Guia para o site Hospital das Clínicas
           </h1>
           <img
-            src="../../../public/logohc.png"
+            src={logoHC}
             alt="Logo-HC"
             className="p-8"
           />
@@ -27,7 +28,7 @@ export default function Guia() {
             Guia para o site HC Fácil
           </h1>
           <img
-            src="../../../public/logohc.png"
+            src={logoHC}
             alt="Logo-HC"
             className="p-8"
           />
