@@ -15,7 +15,7 @@ export default function QuemSomos() {
         Alisson de Oliveira Cavalcante
       </h2>
       <img
-        src="../../../public/alisson.jpg"
+        src="public/alisson.jpg"
         alt="Foto Aluno"
         className="w-full max-w-[250px] h-auto rounded-2xl object-cover"
       />
@@ -25,14 +25,14 @@ export default function QuemSomos() {
       <div className="flex gap-5 pt-5">
         <a href="https://www.linkedin.com/in/alisson-oliveira-50a872356" target="_blank" rel="noopener noreferrer">
           <img
-            src="../../../public/linkedin.png"
+            src="public/linkedin.png"
             alt="LinkedinPng"
             className="w-10 h-10 sm:w-12 sm:h-12"
           />
         </a>
         <a href="https://github.com/alissonccavalcante" target="_blank" rel="noopener noreferrer">
           <img
-            src="../../../public/github.png"
+            src="public/github.png"
             alt="GithubPng"
             className="w-10 h-10 sm:w-12 sm:h-12"
           />
@@ -46,7 +46,7 @@ export default function QuemSomos() {
         João Vitor Biribilli Ravelli
       </h2>
       <img
-        src="../../../public/joao.jpg"
+        src="public/joao.jpg"
         alt="Foto Aluno"
         className="w-full max-w-[250px] h-auto rounded-2xl object-cover"
       />
@@ -56,14 +56,14 @@ export default function QuemSomos() {
       <div className="flex gap-5 pt-5">
         <a href="https://www.linkedin.com/in/joão-vitor-biribilli-ravelli-b9b447367/" target="_blank" rel="noopener noreferrer">
           <img
-            src="../../../public/linkedin.png"
+            src="public/linkedin.png"
             alt="LinkedinPng"
             className="w-10 h-10 sm:w-12 sm:h-12"
           />
         </a>
         <a href="https://github.com/biribillidev" target="_blank" rel="noopener noreferrer">
           <img
-            src="../../../public/github.png"
+            src="public/github.png"
             alt="GithubPng"
             className="w-10 h-10 sm:w-12 sm:h-12"
           />
@@ -77,7 +77,7 @@ export default function QuemSomos() {
         Pedro Chasci Puga
       </h2>
       <img
-        src="../../../public/pedro.jpeg"
+        src="public/pedro.jpeg"
         alt="Foto Aluno"
         className="w-full max-w-[250px] h-auto rounded-2xl object-cover"
       />
@@ -87,14 +87,14 @@ export default function QuemSomos() {
       <div className="flex gap-5 pt-5">
         <a href="https://www.linkedin.com/in/pedrocpdev" target="_blank" rel="noopener noreferrer">
           <img
-            src="../../../public/linkedin.png"
+            src="public/linkedin.png"
             alt="LinkedinPng"
             className="w-10 h-10 sm:w-12 sm:h-12"
           />
         </a>
         <a href="https://github.com/PedroCPdev1" target="_blank" rel="noopener noreferrer">
           <img
-            src="../../../public/github.png"
+            src="public/github.png"
             alt="GithubPng"
             className="w-10 h-10 sm:w-12 sm:h-12"
           />
