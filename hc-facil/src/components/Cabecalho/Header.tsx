@@ -20,7 +20,7 @@ export default function Header() {
         className="flex items-center scale-100 sm:scale-110 lg:scale-125"
       >
         <img 
-          src="/public/logo.png" 
+          src="/logo.png" 
           alt="Logo HC Fácil" 
           className="h-12 w-auto sm:h-16 lg:h-20 mt-2"
         />
