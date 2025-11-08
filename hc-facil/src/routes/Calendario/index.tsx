@@ -20,7 +20,7 @@ export default function Calendario() {
     autoClose: 3000, 
   });;
 
-  async function agendarConsulta(dadosAgendamento) {
+  async function agendarConsulta(dadosAgendamento: { data_consulta: string; hora_consulta: string; local: string; especialidade: string; }) {
     setLoading(true);
     
     const payload = dadosAgendamento; 
@@ -56,7 +56,7 @@ export default function Calendario() {
     }
   }
 
-  function agendar(e) {
+  function agendar(e: { preventDefault: () => void; }) {
     e.preventDefault();
     if (data_consulta && hora_consulta && local && especialidade) {
       agendarConsulta({ data_consulta, hora_consulta, local, especialidade });
