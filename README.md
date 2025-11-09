@@ -5,7 +5,9 @@ Este projeto foi desenvolvido com o objetivo de facilitar o acesso às informaç
 ## 🚀 Tecnologias utilizadas
 - **React.js** → Biblioteca JavaScript para construção de interfaces.  
 - **Vite.js** → Ferramenta de build rápida e otimizada para projetos modernos em React.  
-- **TailwindCSS** → Framework CSS utilitário para estilização rápida e responsiva.  
+- **TailwindCSS** → Framework CSS utilitário para estilização rápida e responsiva. 
+- **Render** → Utilizado para a publicação da API em java
+- **Vercel** → Utilizado para fazer o deploy do projeto
 
 ## 👨‍💻 Integrantes
 - Alisson de Oliveira Cavalcante – RM 566014 – Turma 1TDSPH  

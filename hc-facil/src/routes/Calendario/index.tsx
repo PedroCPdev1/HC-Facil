@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+const URL_API = import.meta.env.VITE_API_URL;
 
 export default function Calendario() {
   const [data_consulta, setData] = useState("");
@@ -19,13 +20,13 @@ export default function Calendario() {
     autoClose: 3000, 
   });;
 
-  async function agendarConsulta(dadosAgendamento) {
+  async function agendarConsulta(dadosAgendamento: { data_consulta: string; hora_consulta: string; local: string; especialidade: string; }) {
     setLoading(true);
     
     const payload = dadosAgendamento; 
 
     try {
-      const response = await fetch("http://localhost:8080/calendario", {
+      const response = await fetch(URL_API, {
         method: 'POST', 
         headers: {
           'Content-Type': 'application/json',
@@ -55,7 +56,7 @@ export default function Calendario() {
     }
   }
 
-  function agendar(e) {
+  function agendar(e: { preventDefault: () => void; }) {
     e.preventDefault();
     if (data_consulta && hora_consulta && local && especialidade) {
       agendarConsulta({ data_consulta, hora_consulta, local, especialidade });
