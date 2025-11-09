@@ -21,7 +21,9 @@ As imagens e ícones utilizados no projeto estão localizados na pasta **`/publi
 - Ícones auxiliares para interface  
 
 ## Link do Vídeo:
-https://youtu.be/lHiGAE5qpRA
+https://www.youtube.com/watch?v=eLPkjVgDYeo&pp=0gcJCQMKAYcqIYzv
+https://www.youtube.com/watch?v=cOGMI0IcIGQ
+https://www.youtube.com/watch?v=QVHWhnOqYhA&pp=0gcJCQMKAYcqIYzv
 
 ## Link do Repositório:
 https://github.com/PedroCPdev1/HC-Facil
