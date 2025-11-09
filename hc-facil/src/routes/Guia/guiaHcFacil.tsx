@@ -3,19 +3,19 @@ import { useNavigate } from "react-router-dom";
 const videos = [
   {
     id: "1",
-    title: "Guia Acesso (Senha ou Usuário incorreto)",
+    title: "Guia Calendario",
     thumb:
       "https://i.ytimg.com/vi/y7K61DvXQO4/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGGUgWChOMA8=&rs=AOn4CLDGCUkq9deTmOII13vHdxgd8WZ2pw",
   },
   {
     id: "2",
-    title: "Guia Consulta online",
+    title: "Guia Consultas",
     thumb:
       "https://i.ytimg.com/vi/y7K61DvXQO4/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGGUgWChOMA8=&rs=AOn4CLDGCUkq9deTmOII13vHdxgd8WZ2pw",
   },
   {
     id: "3",
-    title: "Guia de Exames",
+    title: "Guia sobre nos",
     thumb:
       "https://i.ytimg.com/vi/y7K61DvXQO4/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGGUgWChOMA8=&rs=AOn4CLDGCUkq9deTmOII13vHdxgd8WZ2pw",
   },

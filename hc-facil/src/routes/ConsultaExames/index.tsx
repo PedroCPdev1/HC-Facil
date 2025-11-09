@@ -202,7 +202,7 @@ export default function ConsultaExames() {
             },
             body: JSON.stringify(updatedData),
         });
-
+console.log(response)
         if (response.ok) { 
             const consultaAtualizada: Consultas = await response.json();
 

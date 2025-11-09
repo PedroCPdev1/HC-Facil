@@ -2,16 +2,16 @@ import { useParams, useNavigate } from "react-router-dom";
 
 const videos: Record<string, { title: string; url: string }> = {
   "1": {
-    title: "Placeholder",
-    url: "https://www.youtube.com/embed/u31qwQUeGuM",
+    title: "Guia Calendario",
+    url: "https://www.youtube.com/embed/eLPkjVgDYeo?si=99JPlmzYvbkQG34W",
   },
   "2": {
-    title: "Placeholder",
-    url: "https://www.youtube.com/embed/u31qwQUeGuM",
+    title: "Guia Consultas",
+    url: "https://www.youtube.com/embed/cOGMI0IcIGQ?si=nrpnqiWcujFnspBj",
   },
   "3": {
-    title: "Placeholder",
-    url: "https://www.youtube.com/embed/u31qwQUeGuM",
+    title: "Guia sobre nos`",
+    url: "https://www.youtube.com/embed/QVHWhnOqYhA?si=twP4Cnot4Q4cHW_2",
   },
 };
 
